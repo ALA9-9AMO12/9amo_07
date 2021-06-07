@@ -34,7 +34,7 @@
     <br>
     <textarea id="text" class="form-control" name="text" rows="4" placeholder="Voer hier je bericht in"></textarea>  
 </div>
-<div class="form-group">
+<div class="form-group text-center">
   <button type="submit" class="btn btn-primary mt-2">Submit</button>
 </div>
 </form>
