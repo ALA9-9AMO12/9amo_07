@@ -7,6 +7,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <link rel="stylesheet" href="{{ URL::asset('css/css.css') }} ">
 </head>
 <body>
     
@@ -14,6 +15,7 @@
 
 <br><br><br>
 <form>
+  <h1>Contact</h1>
   <div class="form-group">
     <label for="titel">Titel</label>
     <input type="text" class="form-control" id="titel" aria-describedby="titel" placeholder="Enter Titel">
@@ -24,16 +26,17 @@
     <input type="text" class="form-control" id="Naam" placeholder="Naam">
   </div>
   <div class="form-group">
-    <label for="Naam">Naam</label>
-    <input type="text" class="form-control" id="Naam" placeholder="Naam">
+    <label for="Naam">Email</label>
+    <input type="email" class="form-control" id="Naam" placeholder="Naam">
   </div>
   <div class="form-group">
-    <label for="Naam">Naam</label>
-    <textarea id="Naam" name="w3review" rows="4" cols="50">
-At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
-</textarea>  
+    <label for="text">Text</label>
+    <br>
+    <textarea id="text" class="form-control" name="text" rows="4" placeholder="Voer hier je bericht in"></textarea>  
 </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+<div class="form-group">
+  <button type="submit" class="btn btn-primary mt-2">Submit</button>
+</div>
 </form>
 </div>
 
