@@ -11,8 +11,11 @@
 </head>
 <body>
     
-<div class="container">
-
+<div class="container-sm">
+<!--
+ https://laravelarticle.com/laravel-6-contact-form-tutorial
+tutorial contact formulier
+ -->
 <br><br><br>
 <form>
   <h1>Contact</h1>
@@ -34,7 +37,7 @@
     <br>
     <textarea id="text" class="form-control" name="text" rows="4" placeholder="Voer hier je bericht in"></textarea>  
 </div>
-<div class="form-group text-center">
+<div class="form-group">
   <button type="submit" class="btn btn-primary mt-2">Submit</button>
 </div>
 </form>
