@@ -21,55 +21,66 @@
 
 
 <nav class="navbar navbar-expand-sm bg-warning text-dark   ">
-    <a class="navbar-brand text-dark" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">
+        <img src="Image/bee.png" alt="Logo" style="width:40px;">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Link</a>
+                <a class="nav-link text-dark" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Link</a>
+                <a class="nav-link text-dark" href="#">Berichten</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-dark" href="#">Link</a>
+                <a class="nav-link text-dark" href="#">Archief</a>
             </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0   text-right  ">
+            <input class="form-control mr-sm-2 " type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 text-right" type="submit">Search</button>
+        </form>
     </div>
 </nav>
 
-<div class="jumbotron text-center   " style="margin-bottom:0">
+<div class="jumbotron text-center bg-warning   " style="margin-bottom:0">
     <h1>  Imkerverening Oestgeest</h1>
     <p class="col-sm-4 mx-auto text-dark "> De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers,
         als bij het grotere publiek.</p>
 </div>
 
-<div class="container" style="margin-top:30px">
-    <div class="row">
-        <div class="col-sm-4">
+
+
+
+<div class="container " style="margin-top:30px">
+    <div class="row  ">
+        <div class="col-sm-4 ">
             <h2> Activiteiten  </h2>
             <img src="Image/imkers.jpg" alt="Imkers aan het werk">
-            <p> Ziet u een bijenzwerm of hommelnest in de omgeving, of wilt u graag weten wat de verschillen zijn? Lees dan verder wat u kunt doe</p>
-            <h3>Some Links</h3>
+            <p class="pb-4"> Ziet u een bijenzwerm of hommelnest in de omgeving, of wilt u graag weten wat de verschillen zijn? Lees dan verder wat u kunt doe</p>
+            <h3>Recente berichten</h3>
             <p>Lorem ipsum dolor sit ame.</p>
             <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
+                    <a class="nav-link text-dark "href="#">Imkers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link text-dark " href="#">Imkers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link text-dark " href="#">Imkers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link  text-dark " href="#">Imkers</a>
                 </li>
             </ul>
             <hr class="d-sm-none">
         </div>
+
+
         <div class="col-sm-8">
             <h2>TITLE HEADING</h2>
             <h5>Title description, Dec 7, 2017</h5>
@@ -77,14 +88,13 @@
             <p>Some text..</p>
             <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
             <br>
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Sep 2, 2017</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+           <!--- Here can go another block of code if needed -->
         </div>
     </div>
 </div>
+
+
+
 
 <!-- Footer -->
 <footer class="text-center text-lg-start text-dark bg-warning"  >
