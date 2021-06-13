@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <style>
         .fakeimg {
             height: 200px;
@@ -19,21 +20,21 @@
 
 
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar navbar-expand-sm bg-warning text-dark   ">
+    <a class="navbar-brand text-dark" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link text-dark" href="#">Link</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link text-dark" href="#">Link</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+            <li class="nav-item ">
+                <a class="nav-link text-dark" href="#">Link</a>
             </li>
         </ul>
     </div>
@@ -41,7 +42,7 @@
 
 <div class="jumbotron text-center   " style="margin-bottom:0">
     <h1>  Imkerverening Oestgeest</h1>
-    <p> De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers,
+    <p class="col-sm-4 mx-auto text-dark "> De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers,
         als bij het grotere publiek.</p>
 </div>
 
