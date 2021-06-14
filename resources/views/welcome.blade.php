@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <style>
         .fakeimg {
-            height: 200px;
+            height: 400px;
             background: #aaa;
         }
     </style>
@@ -20,23 +20,23 @@
 
 
 
-<nav class="navbar navbar-expand-sm bg-warning text-dark   ">
+<nav class="navbar navbar-expand-sm bg-dark    ">
     <a class="navbar-brand" href="#">
         <img src="Image/bee.png" alt="Logo" style="width:40px;">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <button class="navbar-toggler text-warning bg-warning" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Home</a>
+        <ul class="navbar-nav bg-dark">
+            <li class="nav-item bg-dark">
+                <a class="nav-link  text-warning" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Berichten</a>
+                <a class="nav-link text-warning href="#">Berichten</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-dark" href="#">Archief</a>
+                <a class="nav-link text-warning" href="#">Archief</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0   text-right  ">
@@ -78,20 +78,20 @@
                 </li>
             </ul>
             <hr class="d-sm-none">
-        </div> 
+        </div>
 
-        
-        
+
+
 
 
         <div class="col-sm-8">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <h2> Het houden van bijen !  </h2>
+            <h5>Bij de bijenkast kijken, Dec 7, 2017</h5>
+            <img class="w-100 fakeimg" src="Image/bijkast.jpg" alt=" Imkers bezig met een bijen kast  ">
+            <p>De imkervereniging Oegstgeest en omstreken strekt zich uit over de regio Oegstgeest, Leiden, Lisse, Leimuiden en Alkemade. De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers, als bij het grotere publiek.</p>
             <br>
-           <!--- Here can go another block of code if needed --> 
+            <h5> Collage van imker activiteiten</h5>
+           <!--- Here can go another block of code if needed -->
            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -119,9 +119,9 @@
   </a>
 </div>
 
-            
+
     </div>
-</div>  
+</div>
 </div>
 
 

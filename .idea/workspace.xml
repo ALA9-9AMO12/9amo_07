@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac509f80-81ab-42e1-805c-ebb281effcea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Image/imker2013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Image/imkers2014.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Image/imkerswerken.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,6 +170,7 @@
       <workItem from="1622971384663" duration="1934000" />
       <workItem from="1623076032828" duration="1835000" />
       <workItem from="1623134735548" duration="6591000" />
+      <workItem from="1623694899638" duration="315000" />
     </task>
     <servers />
   </component>
