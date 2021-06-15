@@ -33,7 +33,7 @@
                 <a class="nav-link  text-warning" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-warning href="#">Berichten</a>
+                <a class="nav-link text-warning "href="#">Berichten</a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link text-warning" href="#">Archief</a>
@@ -48,7 +48,7 @@
 
 <div class="jumbotron text-center bg-warning   " style="margin-bottom:0">
     <h1>  Imkerverening Oestgeest</h1>
-    <p class="col-sm-4 mx-auto text-dark "> De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers,
+    <p class="col-sm-6 mx-auto text-dark  "> De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers,
         als bij het grotere publiek.</p>
 </div>
 
@@ -57,9 +57,9 @@
 
 <div class="container " style="margin-top:30px">
     <div class="row  ">
-        <div class="col-sm-4 ">
+        <div class="col-sm-4  order-2 order-md-1 ">
             <h2> Activiteiten  </h2>
-            <img src="Image/imkers.jpg" alt="Imkers aan het werk">
+            <img class="w-100"src="Image/imkers.jpg" alt="Imkers aan het werk">
             <p class="pb-4"> Ziet u een bijenzwerm of hommelnest in de omgeving, of wilt u graag weten wat de verschillen zijn? Lees dan verder wat u kunt doe</p>
             <h3>Recente berichten</h3>
             <p>Lorem ipsum dolor sit ame.</p>
@@ -81,13 +81,10 @@
         </div>
 
 
-
-
-
-        <div class="col-sm-8">
+        <div class="col-sm-8 order-1 order-md-2  ">
             <h2> Het houden van bijen !  </h2>
             <h5>Bij de bijenkast kijken, Dec 7, 2017</h5>
-            <img class="w-100 fakeimg" src="Image/bijkast.jpg" alt=" Imkers bezig met een bijen kast  ">
+            <div> <img class="w-100 fakeimg" src="Image/bijkast.jpg" alt=" Imkers bezig met een bijen kast  "> </div>
             <p>De imkervereniging Oegstgeest en omstreken strekt zich uit over de regio Oegstgeest, Leiden, Lisse, Leimuiden en Alkemade. De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers, als bij het grotere publiek.</p>
             <br>
             <h5> Collage van imker activiteiten</h5>
