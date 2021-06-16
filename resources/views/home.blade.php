@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <style>
         .fakeimg {
-            height: 400px;
+            height: auto;
             background: #aaa;
         }
     </style>
