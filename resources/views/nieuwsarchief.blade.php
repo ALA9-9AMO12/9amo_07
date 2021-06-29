@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 </head>
+
+<style>
+    .link{ color:black;
+        text-decoration:none;}
+    hr {
+        border: 1px solid black;
+    }
+</style>
+
 <body>
 
 
@@ -44,7 +53,7 @@
 <div class="jumbotron">
     <div class="container">
         <h1 class="display-3 text-center ">Berichten</h1>
-        <h3 class="text-center">Hieronder beviden zich artikelen </h3>
+        <h3 class="text-center">Hieronder bevinden zich artikelen </h3>
 
     </div>
 </div>
@@ -52,35 +61,36 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-md-4">
-            <h3>Gezellige dag op Oud Poelgeest</h3>
+        <div class="col-md-4  ">
+            <h3><p><a href ="#" class="link-dark text-dark  text-decoration-none">Gezellige dag op Oud Poelgeest</a></p></h3>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+
         </div>
-        <div class="col-md-4">
-            <h3>Vandalisme op Rijnweyde</h3>
+
+        <div class="col-md-4  ">
+            <h3><p><a href ="#" class="link-dark text-dark  text-decoration-none">Vandalisme op Rijnweyde</a></p></h3>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+
+        </div>
+        <div class="col-md-4  ">
+            <h3><p><a href ="#" class="link-dark text-dark  text-decoration-none">Nieuwe Penningmeester</a></p></h3>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
         </div>
         <div class="col-md-4">
-            <h3>Heading</h3>
+            <h3><p><a href ="#" class="link-dark text-dark  text-decoration-none">Ondersteuning NBV tijdens Corona crisis</a></p></h3>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+
         </div>
         <div class="col-md-4">
-            <h3>Heading</h3>
+            <h3><p><a href ="#" class="link-dark text-dark  text-decoration-none">Coronavirus</a></p></h3>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+
         </div>
         <div class="col-md-4">
-            <h3>Heading</h3>
+            <h3><p><a href ="#" class="link-dark text-dark  text-decoration-none">Kasten op Landgoed Rhijnweide</a></p></h3>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-            <h3>Heading</h3>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+
         </div>
 
     </div>
