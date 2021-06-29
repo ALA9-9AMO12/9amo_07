@@ -24,4 +24,10 @@ Route::get('/nieuws', function () {
 });
 
 
+Route::get('/home', function () {
+    return view('home');
+});
+
+
+
 
