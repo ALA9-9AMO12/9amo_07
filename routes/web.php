@@ -27,3 +27,10 @@ Route::get('/home', function () {
 Route::get('/nieuws', function () {
     return view('nieuwsarchief');
 });
+
+
+
+Route::get('/over', function () {
+    return view('imkerverenigging');
+});
+
