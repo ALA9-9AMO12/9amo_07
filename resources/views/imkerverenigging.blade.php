@@ -15,9 +15,9 @@
 <style>
     .link{ color:black;
         text-decoration:none;}
-    hr {
-        border: 1px solid black;
-    }
+
+
+
 </style>
 
 <body>
@@ -52,44 +52,34 @@
 
 
 
-<div class="jumbotron p-3 p-md-5  bg-warning pt-5 mt-6 text-dark ">
-    <div class="col-md-6 px-0">
-        <h1 class="display-4 font-robot">Title of a longer featured blog post</h1>
-        <p class="lead my-3  font-weight-normal">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
+<div class="jumbotron p-4 p-md-5 text-dark rounded bg-warning col-md-12 text-left d-flex m-auto ">
+    <div class="col-md-6 px-0 text-center m-auto">
+        <h1 class="display-3 font-robot text-center">Over ons</h1>
+        <p class="lead my-3 font-weight-bold text-center ">Hieronder vind je alle benodigde informatie over de imkervereniging</p>
 
     </div>
 </div>
 
-<div class="row mb-2">
-    <div class="col-md-4">
-        <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-                <strong class="d-inline-block mb-2 text-primary">World</strong>
-                <h3 class="mb-0">
-                    <a class="text-dark" href="#">Featured post</a>
-                </h3>
-                <div class="mb-1 text-muted">Nov 12</div>
-                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#">Continue reading</a>
+
+
+<div class="row mb-2 m-auto pt-4 ">
+    <div class="col-md-6 m-auto     ">
+        <div class="row no-gutters  border border-dark  bg-dark rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-warning">Info</strong>
+                <h3 class="mb-0 text-warning">Lidmaatschap</h3>
+                <div class="mb-1 text-warning"> </div>
+                <p class="card-text mb-auto text-warning"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at cursus ipsum. Etiam eleifend augue ipsum, ut mattis velit eleifend sed. Aenean nisi lacus, dignissim sed gravida ac, interdum ac orci. Morbi iaculis eleifend arcu nec hendrerit. Integer fermentum turpis quis metus vestibulum, at euismod augue facilisis. Integer volutpat mi ac mi facilisis commodo. Sed tempus magna in lorem ornare sollicitudin. Fusce ac molestie metus. Praesent consequat tellus diam, eu dignissim ante mollis sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ac sem eu sapien auctor cursus in et lectus.  </p>
+                <a href="#" class="stretched-link text-warning">Continue reading</a>
             </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+            <div class="col-auto d-none d-lg-block m-auto pr-3">
+                <img class="w-100" src="Image/imkers.jpg" alt="imkers aan het werk">
+             </div>
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-                <strong class="d-inline-block mb-2 text-success">Design</strong>
-                <h3 class="mb-0">
-                    <a class="text-dark" href="#">Post title</a>
-                </h3>
-                <div class="mb-1 text-muted">Nov 11</div>
-                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#">Continue reading</a>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-        </div>
-    </div>
-</div>
+
+
+
 </div>
 
 
