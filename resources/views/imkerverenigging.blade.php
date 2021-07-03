@@ -84,7 +84,6 @@
                         Voor al uw vragen kunt u zich wenden tot het verenigingssecretariaat in Wageningen. <br> <br>
                     </p>
 
-                    <a href="/overextra.blade.php" class="stretched-link text-warning">Voor meer informatie klik hier</a>
                 </div>
                 <div class="col-auto d-none d-lg-block m-auto pr-3">
 

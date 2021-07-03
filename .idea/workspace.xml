@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac509f80-81ab-42e1-805c-ebb281effcea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/imkerverenigging.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/imkerverenigging.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/overextra.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/overextra.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -176,7 +180,7 @@
       <workItem from="1624443339729" duration="1455000" />
       <workItem from="1625044526810" duration="4639000" />
       <workItem from="1625216151793" duration="657000" />
-      <workItem from="1625310579539" duration="1259000" />
+      <workItem from="1625310579539" duration="1573000" />
     </task>
     <servers />
   </component>
