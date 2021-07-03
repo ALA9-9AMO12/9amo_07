@@ -28,6 +28,10 @@ Route::get('/home', function () {
     return view('home');
 });
 
+Route::get('/over', function () {
+    return view('Imkervereniging');
+});
+
 
 
 
