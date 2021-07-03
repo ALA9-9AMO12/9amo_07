@@ -61,28 +61,42 @@
 </div>
 
 
+<div >
 
-<div class="row mb-2 m-auto pt-4 ">
-    <div class="col-md-6 m-auto     ">
-        <div class="row no-gutters  border border-dark  bg-dark rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-warning">Info</strong>
-                <h3 class="mb-0 text-warning">Lidmaatschap</h3>
-                <div class="mb-1 text-warning"> </div>
-                <p class="card-text mb-auto text-warning"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at cursus ipsum. Etiam eleifend augue ipsum, ut mattis velit eleifend sed. Aenean nisi lacus, dignissim sed gravida ac, interdum ac orci. Morbi iaculis eleifend arcu nec hendrerit. Integer fermentum turpis quis metus vestibulum, at euismod augue facilisis. Integer volutpat mi ac mi facilisis commodo. Sed tempus magna in lorem ornare sollicitudin. Fusce ac molestie metus. Praesent consequat tellus diam, eu dignissim ante mollis sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ac sem eu sapien auctor cursus in et lectus.  </p>
-                <a href="#" class="stretched-link text-warning">Continue reading</a>
+    <div class="row mb-2 m-auto pt-4 ">
+        <div class="col-md-6 m-auto     ">
+            <div class="row no-gutters  border border-dark  bg-dark rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-warning">Info</strong>
+                    <h3 class="mb-0 text-warning">Lidmaatschap</h3>
+                    <div class="mb-1 text-warning"> </div>
+                    <p class="card-text mb-auto text-warning">   De imkervereniging-Oegstgeest is aangesloten bij de landelijke Nederlandse Bijenhoudersvereniging. Met een lidmaatschap van de NBV bent u automatisch lid van één van de regio afdelingen. De NBV biedt u:
+                        <br> <br>
+                        Belangenbehartiging van de imkerij in Nederland
+                        Uitvoerig bijenteeltonderwijs programma <br> <br>
+                        Zes keer per jaar ontvangst van het magazine BIJENhouden <br> <br>
+                        Maandelijks het digitale Imkernieuws; <br> <br>
+                        Wekelijks tips over het houden van bijen in het BijenBlog <br> <br>
+                        Korting op entree voor bijeenkomsten en activiteiten met de NBV ledenpas; <br> <br>
+                        Aanvullende WA-verzekering voor activiteiten die voortvloeien uit het houden van bijen; <br> <br>
+                        Voorlichtingsmateriaal t.b.v presentaties <br> <br>
+                        Verzekerd zijn van ondersteuning van collega imkers; <br> <br>
+                        Voor al uw vragen kunt u zich wenden tot het verenigingssecretariaat in Wageningen. <br> <br>
+                    </p>
+
+                    <a href="/overextra.blade.php" class="stretched-link text-warning">Voor meer informatie klik hier</a>
+                </div>
+                <div class="col-auto d-none d-lg-block m-auto pr-3">
+
+                </div>
             </div>
-            <div class="col-auto d-none d-lg-block m-auto pr-3">
-                <img class="w-100" src="Image/imkers.jpg" alt="imkers aan het werk">
-             </div>
         </div>
+
+
+
     </div>
 
-
-
 </div>
-
-
 
 
 <!-- Footer -->
