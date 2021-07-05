@@ -12,7 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+//contact
+Route::get('contact-us','ContactUsController@index');
+Route::post('contact-us','ContactUsController@handleForm');
+//create
+Route::get('form-validation','UserController@create')->name('user.create');
+Route::post('form-validation','UserController@store')->name('user.store');
